@@ -1,0 +1,56 @@
+{
+  "name": "qzone-api",
+  "version": "0.0.1",
+  "description": "⭐️ Node.js Qzone API service",
+  "keywords": ["qzone", "qzone-api"],
+  "repository": {
+    "url": "https://github.com/u3u/qzone-api",
+    "type": "git"
+  },
+  "bugs": "https://github.com/u3u/qzone-api/issues",
+  "homepage": "https://github.com/u3u/qzone-api#readme",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": ["lib", "types/*.d.ts"],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "npm run lint && jest",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
+    "prettier": "npm run format && npm run lint:fix && git add . && git status"
+  },
+  "author": "u3u <quq@quq.cat>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "phantom": "^4.0.12"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/node": "^8.5.7",
+    "@types/phantom": "^3.2.4",
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^22.0.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.9.2",
+    "xo": "^0.18.0"
+  },
+  "pre-commit": ["prettier"],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": ["node", "browser", "jest"],
+    "rules": {
+      "no-unused-vars": 1,
+      "operator-linebreak": 0,
+      "space-before-function-paren": 0
+    }
+  }
+}
