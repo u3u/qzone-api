@@ -24,7 +24,7 @@
     "lint": "xo",
     "lint:fix": "xo --fix",
     "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
-    "prettier": "npm run format && npm run lint:fix && git add . && git status"
+    "prettier": "npm run format && npm run lint:fix && git status"
   },
   "author": "u3u <quq@quq.cat>",
   "license": "MIT",
