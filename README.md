@@ -1,6 +1,6 @@
 # Qzone API
 
-[![NPM version](https://img.shields.io/npm/v/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![NPM downloads](https://img.shields.io/npm/dm/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![CircleCI](https://img.shields.io/circleci/token/0b492c79ed6c1cb071f9ec6a3867e1f27d20ffae/project/github/u3u/qzone-api/master.svg)](https://circleci.com/gh/u3u/qzone-api/tree/master) [![codecov](https://codecov.io/gh/u3u/qzone-api/branch/master/graph/badge.svg)](https://codecov.io/gh/u3u/qzone-api)
+[![NPM version](https://img.shields.io/npm/v/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![NPM downloads](https://img.shields.io/npm/dm/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![CircleCI](https://img.shields.io/circleci/token/0b492c79ed6c1cb071f9ec6a3867e1f27d20ffae/project/github/u3u/qzone-api/master.svg)](https://circleci.com/gh/u3u/qzone-api/tree/master) [![codecov](https://codecov.io/gh/u3u/qzone-api/branch/master/graph/badge.svg?token=6cvcdqtqtB)](https://codecov.io/gh/u3u/qzone-api)
 
 ## Install
 
