@@ -1,8 +1,11 @@
 {
   "name": "qzone-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "⭐️ Node.js Qzone API service",
-  "keywords": ["qzone", "qzone-api"],
+  "keywords": [
+    "qzone",
+    "qzone-api"
+  ],
   "repository": {
     "url": "https://github.com/u3u/qzone-api",
     "type": "git"
@@ -11,7 +14,10 @@
   "homepage": "https://github.com/u3u/qzone-api#readme",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
-  "files": ["lib", "types/*.d.ts"],
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ],
   "scripts": {
     "test:cov": "jest --coverage && npm run lint",
     "test": "npm run lint && jest",
@@ -39,14 +45,20 @@
     "prettier": "^1.9.2",
     "xo": "^0.18.0"
   },
-  "pre-commit": ["prettier"],
+  "pre-commit": [
+    "prettier"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true
   },
   "xo": {
     "extends": "rem",
-    "envs": ["node", "browser", "jest"],
+    "envs": [
+      "node",
+      "browser",
+      "jest"
+    ],
     "rules": {
       "no-unused-vars": 1,
       "operator-linebreak": 0,
