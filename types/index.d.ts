@@ -1,8 +1,8 @@
-declare namespace QzoneApi {
-  function login(
+declare module 'qzone-api' {
+  export function login(
     uin: string,
     pwd: string
-  ): {
+  ): Promise<{
     user: {
       login: boolean
       owner: boolean
@@ -18,9 +18,9 @@ declare namespace QzoneApi {
       secure: boolean
       value: string
     }>
-  }
+  }>
 
-  function getPhotoList(params: {
+  export function getPhotoList(params: {
     p_uin: string
     p_skey: string
     g_tk: number | string
@@ -36,7 +36,7 @@ declare namespace QzoneApi {
     photos: any
   }
 
-  function getAlbumList(params: {
+  export function getAlbumList(params: {
     p_uin: string
     p_skey: string
     g_tk: number | string
@@ -70,8 +70,4 @@ declare namespace QzoneApi {
       }
     }>
   }
-}
-
-declare module 'qzone-api' {
-  export = QzoneApi
 }
