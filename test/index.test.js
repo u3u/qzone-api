@@ -1,5 +1,5 @@
-const QzoneApi = require('../lib')
+const QzoneApi = require('../lib/utils/config')
 
 test('main', () => {
-  expect(typeof QzoneApi).toBe('function')
+  expect(typeof QzoneApi).toBe('object')
 })
