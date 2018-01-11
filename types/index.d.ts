@@ -28,20 +28,20 @@ declare module 'qzone-api' {
     albumid: string
     ps?: number | string
     pn?: number | string
-  }): {
+  }): Promise<{
     album: any
     finish: number
     list_count: number
     total_count: number
     photos: any
-  }
+  }>
 
   export function getAlbumList(params: {
     p_uin: string
     p_skey: string
     g_tk: number | string
     res_uin: string
-  }): {
+  }): Promise<{
     attach_info: string
     auto_load: number
     has_more: number
@@ -69,5 +69,5 @@ declare module 'qzone-api' {
         uploadnum: number
       }
     }>
-  }
+  }>
 }
