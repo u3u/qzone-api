@@ -61,4 +61,4 @@ const QzoneApi = require('qzone-api')
 **Qzone API** © [u3u](https://github.com/u3u), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by u3u with help from contributors ([list](https://github.com/u3u/qzone-api/contributors)).
 
-> [quq.cat](https://quq.cat) · GitHub [@u3u](https://github.com/u3u)
+> [qwq.cat](https://qwq.cat) · GitHub [@u3u](https://github.com/u3u)
