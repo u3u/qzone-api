@@ -26,7 +26,7 @@
     "format": "prettier \"*/**/*.js\" --ignore-path ./.prettierignore --write",
     "prettier": "npm run format && npm run lint:fix && git status"
   },
-  "author": "u3u <quq@quq.cat>",
+  "author": "u3u <qwq@qwq.cat>",
   "license": "MIT",
   "jest": {
     "testEnvironment": "node"
