@@ -1,5 +1,7 @@
 # Qzone API
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/u3u/qzone-api.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://img.shields.io/npm/v/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![NPM downloads](https://img.shields.io/npm/dm/qzone-api.svg?style=flat)](https://npmjs.com/package/qzone-api) [![CircleCI](https://img.shields.io/circleci/token/0b492c79ed6c1cb071f9ec6a3867e1f27d20ffae/project/github/u3u/qzone-api/master.svg)](https://circleci.com/gh/u3u/qzone-api/tree/master) [![codecov](https://codecov.io/gh/u3u/qzone-api/branch/master/graph/badge.svg?token=6cvcdqtqtB)](https://codecov.io/gh/u3u/qzone-api) [![Prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 ## Install
