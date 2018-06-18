@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "phantom": "^4.0.12"
+    "phantom": "^6.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.0.0",
