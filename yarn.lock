@@ -230,9 +230,11 @@ async@^2.1.4:
   dependencies:
     lodash "^4.14.0"
 
-async@~1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/async/download/async-1.0.0.tgz#f8fc04ca3a13784ade9e1641af98578cfbd647a9"
+async@^2.6.0:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
+  dependencies:
+    lodash "^4.17.10"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -684,19 +686,47 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
+color-convert@^0.5.0:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-0.5.3.tgz#bdb6c69ce660fadffe0b0007cc447e1b9f7282bd"
+
 color-convert@^1.9.0:
   version "1.9.1"
   resolved "http://registry.npm.taobao.org/color-convert/download/color-convert-1.9.1.tgz#c1261107aeb2f294ebffec9ed9ecad529a6097ed"
   dependencies:
     color-name "^1.1.1"
 
-color-name@^1.1.1:
+color-name@^1.0.0, color-name@^1.1.1:
   version "1.1.3"
   resolved "http://registry.npm.taobao.org/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
-colors@1.0.x:
-  version "1.0.3"
-  resolved "http://registry.npm.taobao.org/colors/download/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
+color-string@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-0.3.0.tgz#27d46fb67025c5c2fa25993bfbf579e47841b991"
+  dependencies:
+    color-name "^1.0.0"
+
+color@0.8.x:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/color/-/color-0.8.0.tgz#890c07c3fd4e649537638911cf691e5458b6fca5"
+  dependencies:
+    color-convert "^0.5.0"
+    color-string "^0.3.0"
+
+colornames@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/colornames/-/colornames-0.0.2.tgz#d811fd6c84f59029499a8ac4436202935b92be31"
+
+colors@^1.2.1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.0.tgz#5f20c9fef6945cb1134260aab33bfbdc8295e04e"
+
+colorspace@1.0.x:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/colorspace/-/colorspace-1.0.1.tgz#c99c796ed31128b9876a52e1ee5ee03a4a719749"
+  dependencies:
+    color "0.8.x"
+    text-hex "0.0.x"
 
 combined-stream@^1.0.5, combined-stream@~1.0.5:
   version "1.0.5"
@@ -823,10 +853,6 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cycle@1.0.x:
-  version "1.0.3"
-  resolved "http://registry.npm.taobao.org/cycle/download/cycle-1.0.3.tgz#21e80b2be8580f98b468f379430662b046c34ad2"
-
 d@1:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/d/download/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
@@ -949,6 +975,14 @@ detect-newline@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/detect-newline/download/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
 
+diagnostics@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/diagnostics/-/diagnostics-1.1.0.tgz#e1090900b49523e8527be20f081275205f2ae36a"
+  dependencies:
+    colorspace "1.0.x"
+    enabled "1.0.x"
+    kuler "0.0.x"
+
 diff@^3.2.0:
   version "3.4.0"
   resolved "http://registry.npm.taobao.org/diff/download/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
@@ -986,11 +1020,21 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
+enabled@1.0.x:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/enabled/-/enabled-1.0.2.tgz#965f6513d2c2d1c5f4652b64a2e3396467fc2f93"
+  dependencies:
+    env-variable "0.0.x"
+
 enhance-visitors@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/enhance-visitors/download/enhance-visitors-1.0.0.tgz#aa945d05da465672a1ebd38fee2ed3da8518e95a"
   dependencies:
     lodash "^4.13.1"
+
+env-variable@0.0.x:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/env-variable/-/env-variable-0.0.4.tgz#0d6280cf507d84242befe35a512b5ae4be77c54e"
 
 error-ex@^1.2.0, error-ex@^1.3.1:
   version "1.3.1"
@@ -1404,10 +1448,6 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "http://registry.npm.taobao.org/extsprintf/download/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
-eyes@0.1.x:
-  version "0.1.8"
-  resolved "http://registry.npm.taobao.org/eyes/download/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
-
 fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/fast-deep-equal/download/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
@@ -1420,6 +1460,10 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
+fast-safe-stringify@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.4.tgz#4fe828718aa61dbcf9119c3c24e79cc4dea973b2"
+
 fb-watchman@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/fb-watchman/download/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
@@ -1431,6 +1475,10 @@ fd-slicer@~1.0.1:
   resolved "http://registry.npm.taobao.org/fd-slicer/download/fd-slicer-1.0.1.tgz#8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
   dependencies:
     pend "~1.2.0"
+
+fecha@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/fecha/-/fecha-2.3.3.tgz#948e74157df1a32fd1b12c3a3c3cdcb6ec9d96cd"
 
 figures@^1.3.5:
   version "1.7.0"
@@ -2272,7 +2320,7 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-isstream@0.1.x, isstream@~0.1.2:
+isstream@~0.1.2:
   version "0.1.2"
   resolved "http://registry.npm.taobao.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
@@ -2746,6 +2794,12 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
+kuler@0.0.x:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/kuler/-/kuler-0.0.0.tgz#b66bb46b934e550f59d818848e0abba4f7f5553c"
+  dependencies:
+    colornames "0.0.2"
+
 latest-version@^3.0.0:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/latest-version/download/latest-version-3.1.0.tgz#a205383fea322b33b5ae3b18abee0dc2f356ee15"
@@ -2844,11 +2898,25 @@ lodash@^4.0.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.4"
   resolved "http://registry.npm.taobao.org/lodash/download/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
+lodash@^4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
+
 log-symbols@^2.0.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/log-symbols/download/log-symbols-2.1.0.tgz#f35fa60e278832b538dc4dddcbb478a45d3e3be6"
   dependencies:
     chalk "^2.0.1"
+
+logform@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/logform/-/logform-1.9.0.tgz#7e02f7d6b7f70dcc8ae56fcd2d060f9547afbac2"
+  dependencies:
+    colors "^1.2.1"
+    fast-safe-stringify "^2.0.4"
+    fecha "^2.3.3"
+    ms "^2.1.1"
+    triple-beam "^1.2.0"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3030,6 +3098,10 @@ ms@2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/ms/download/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+ms@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+
 multimatch@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/multimatch/download/multimatch-2.1.0.tgz#9c7906a22fb4c02919e2f5f75161b4cdbd4b2a2b"
@@ -3197,6 +3269,10 @@ once@^1.3.0, once@^1.3.3, once@^1.4.0:
   resolved "http://registry.npm.taobao.org/once/download/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
     wrappy "1"
+
+one-time@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/one-time/-/one-time-0.0.4.tgz#f8cdf77884826fe4dff93e3a9cc37b1e4480742e"
 
 onetime@^1.0.0:
   version "1.1.0"
@@ -3371,13 +3447,13 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/performance-now/download/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-phantom@^4.0.12:
-  version "4.0.12"
-  resolved "http://registry.npm.taobao.org/phantom/download/phantom-4.0.12.tgz#78d18cf3f2a76fea4909f6160fcabf2742d7dbf0"
+phantom@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/phantom/-/phantom-6.0.0.tgz#56c58c273c7e6753070efd3255aaf4598b968f7f"
   dependencies:
     phantomjs-prebuilt "^2.1.16"
     split "^1.0.1"
-    winston "^2.4.0"
+    winston "^3.0.0"
 
 phantomjs-prebuilt@^2.1.16:
   version "2.1.16"
@@ -3493,6 +3569,10 @@ process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "http://registry.npm.taobao.org/process-nextick-args/download/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
 
+process-nextick-args@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
+
 progress@^1.1.8:
   version "1.1.8"
   resolved "http://registry.npm.taobao.org/progress/download/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
@@ -3577,6 +3657,18 @@ readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.1.4, readable
     process-nextick-args "~1.0.6"
     safe-buffer "~5.1.1"
     string_decoder "~1.0.3"
+    util-deprecate "~1.0.1"
+
+readable-stream@^2.3.6:
+  version "2.3.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
+  dependencies:
+    core-util-is "~1.0.0"
+    inherits "~2.0.3"
+    isarray "~1.0.0"
+    process-nextick-args "~2.0.0"
+    safe-buffer "~5.1.1"
+    string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
 readline2@^1.0.1:
@@ -4131,6 +4223,12 @@ string_decoder@~1.0.3:
   dependencies:
     safe-buffer "~5.1.0"
 
+string_decoder@~1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
+  dependencies:
+    safe-buffer "~5.1.0"
+
 stringstream@~0.0.4, stringstream@~0.0.5:
   version "0.0.5"
   resolved "http://registry.npm.taobao.org/stringstream/download/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
@@ -4239,6 +4337,10 @@ test-exclude@^4.2.1:
     read-pkg-up "^1.0.1"
     require-main-filename "^1.0.1"
 
+text-hex@0.0.x:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/text-hex/-/text-hex-0.0.0.tgz#578fbc85a6a92636e42dd17b41d0218cce9eb2b3"
+
 text-table@~0.2.0:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
@@ -4320,6 +4422,10 @@ trim-trailing-lines@^1.0.0:
 trim@0.0.1:
   version "0.0.1"
   resolved "http://registry.npm.taobao.org/trim/download/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
+
+triple-beam@^1.2.0, triple-beam@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/triple-beam/-/triple-beam-1.3.0.tgz#a595214c7298db8339eeeee083e4d10bd8cb8dd9"
 
 trough@^1.0.0:
   version "1.0.1"
@@ -4575,16 +4681,26 @@ window-size@0.1.0:
   version "0.1.0"
   resolved "http://registry.npm.taobao.org/window-size/download/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
-winston@^2.4.0:
-  version "2.4.0"
-  resolved "http://registry.npm.taobao.org/winston/download/winston-2.4.0.tgz#808050b93d52661ed9fb6c26b3f0c826708b0aee"
+winston-transport@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/winston-transport/-/winston-transport-4.2.0.tgz#a20be89edf2ea2ca39ba25f3e50344d73e6520e5"
   dependencies:
-    async "~1.0.0"
-    colors "1.0.x"
-    cycle "1.0.x"
-    eyes "0.1.x"
-    isstream "0.1.x"
+    readable-stream "^2.3.6"
+    triple-beam "^1.2.0"
+
+winston@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.0.0.tgz#1f0b24a96586798bcf0cd149fb07ed47cb01a1b2"
+  dependencies:
+    async "^2.6.0"
+    diagnostics "^1.0.1"
+    is-stream "^1.1.0"
+    logform "^1.9.0"
+    one-time "0.0.4"
+    readable-stream "^2.3.6"
     stack-trace "0.0.x"
+    triple-beam "^1.3.0"
+    winston-transport "^4.2.0"
 
 wordwrap@0.0.2:
   version "0.0.2"
