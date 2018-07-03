@@ -3453,8 +3453,8 @@ performance-now@^2.1.0:
   resolved "http://registry.npm.taobao.org/performance-now/download/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
 phantom@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/phantom/-/phantom-6.0.0.tgz#56c58c273c7e6753070efd3255aaf4598b968f7f"
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/phantom/-/phantom-6.0.3.tgz#7e61953eef331ec194c501a8fd933b0d8ebffc32"
   dependencies:
     phantomjs-prebuilt "^2.1.16"
     split "^1.0.1"
